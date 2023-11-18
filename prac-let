@@ -1,0 +1,4 @@
+  let numOne = 5;
+  let numTwo;
+  numTwo = numOne;
+  console.log(numTwo);
