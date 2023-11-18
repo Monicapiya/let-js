@@ -1,0 +1,10 @@
+const str = 'kindly email us on abc@gmail.com, you can also connect with us at def@gmail.com. Thanks...';
+
+const getEmails = (str) => {
+const pattern = /[a-z0-9._]+@[a-z0-9-]+\.[a-z.]{2,6}/gi;
+const detect = str.match(pattern);
+return detect && detect.length > 1 ?detect : detect[0];
+
+};
+
+console.log(getEmails(str));
