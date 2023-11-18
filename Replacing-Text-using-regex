@@ -1,0 +1,21 @@
+/*const message = 'Delhi is the capital of India which is also known as most polluted state in the entire world. It is 76.242245 miles away from Haryana and 259.04965 miles';
+
+const meesageKms = message
+.replace(/\d+(?!miles)/g, (miles) => miles * 1.609)
+.replace(/miles/g, 'kms');
+
+console.log(meesageKms);
+
+*/
+
+const str1 = ' The captian of this ship is dangerous man, captian Roger was known to have killed 10 whales!!!';
+
+const str2 = ' The captian of this ship is dangerous man - captian Roger was known to have killed 10 whales!!!';
+
+const compareStrings = (str1, str2) =>
+
+str1.toLowerCase().replaceAll(/[\W+_-]/gi, '') === str2.toLowerCase().replaceAll(/[\W+_-]/gi, '');
+
+console.log(compareStrings(str1, str2));
+
+
