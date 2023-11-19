@@ -1,0 +1,13 @@
+const vDay = new Date(2023, 1, 14, 14, 40, 25);
+
+console.log(`Valentine's day: ${vDay.toLocaleString()}`);
+
+/*const today = new Date();
+
+     console.log(today.toDateString());
+     console.log(today.toISOString());
+     console.log(today.toLocaleDateString('en-US'));
+     console.log(`New Delhi: ${today.toLocaleString('en-US', {TimeZone: 'Asia/Kolkata'})} `);
+
+     */
+     
